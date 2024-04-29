@@ -81,11 +81,11 @@ footer {
     margin-bottom: 10px;
 }
 nav ul li a:hover {
-    color: #ff0; 
+    color: rgb(75, 1, 1); 
 }
 
 .container:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 0 35px rgba(83, 24, 24); 
 }
 .container::before {
     content: ""; 
