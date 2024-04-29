@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo-vinheria.jpeg" width='100px' alt="Logo vinheria"/>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobreNos.html">Sobre nós</a></li>
+                <li><a href="unidades.html">Unidades</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="formularioContato.html">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="receitas" id="freceita">
+    <h1>Sugestões de Comida com Base no Vinho</h1>
+    <label for="tipo-vinho"><h2>Escolha o tipo de vinho:</h2></label>
+    <select id="tipo-vinho">
+        <option value="vinho1">Vinho Cave Chardonnay</option>
+        <option value="vinho2">Vinho Reserva Cabernet Sauvignon</option>
+        <option value="vinho3">Vinho Nervi Tannat</option>
+        <option value="vinho6">Vinho Angélica Zapata Malbec Alta</option>
+        <option value="vinho4">Vinho DV Catena Cabernet-Malbec</option>
+        <option value="vinho5">Vinho Casillero del Diablo Malbec</option>
+    </select>
+    <br><br>
+    <button class="botaoS" onclick="mostrarSugestao()">Obter Sugestão</button>
+    <h4 id="resultado"></h4>
+    <hr>
+    </div>
+    <footer>
+        <section>
+            <hr>
+            <p>&copy; 2024 Vinheria Agnello. Para tudo e todos.</p>
+        </section>
+        <section id="socialmedia">
+            <span>@VinheriaAgnelloofc</span>
+        </section>
+        <section>
+        <div class="footer">
+            <p>Contatos:</p>
+            <ul>
+                <div class="lista-sem-marcadores">
+                <li>WhatsApp: (11) 99747275</li>
+                <li>Email: agnello@gmail.com</li>
+                <li>Horário de atendimento: 07:00 às 18:00</li>
+                </div> 
+            </ul>
+            <br>
+        </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
