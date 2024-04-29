@@ -5,7 +5,5 @@
 
 556906 - Luca Monteiro
 
-558258 - Victor Henrique
-
 Turma 1ESPW - Engenharia de Software na FIAP
 22/04/2024
