@@ -87,3 +87,11 @@ function mostrarSugestao() {
     var sugestao = sugerirComida(tipoDeVinho);
     document.getElementById('resultado').innerText = sugestao;
 }
+// notificação cupom
+
+var notification = document.querySelector('.notification');
+var closeButton = document.querySelector('.notification .close');
+closeButton.addEventListener('click', function() {
+    notification.style.display = 'none';
+});
+notification.classList.add('show');

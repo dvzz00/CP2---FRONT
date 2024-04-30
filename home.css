@@ -100,3 +100,24 @@ nav ul li a:hover {
     filter: blur(8px); 
     z-index: -1;
  }
+ .notification {
+    display: none;
+    padding: 20px;
+    background-color: #f44336; /* Cor de fundo vermelha */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+.notification.show {
+    display: block;
+}
+
+.notification .close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+}
