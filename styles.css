@@ -198,9 +198,7 @@ body {
 nav ul li a:hover {
     color: rgb(75, 1, 1); 
 }
-
-
-
+/* Adicionar ao carrinho Animação */
 div.transition{
     width: 100px;
     height: 100px;
@@ -212,4 +210,27 @@ div.transition:hover{
     width: 130px;
     padding: 20px;
     background-color: #f8f8f8;
+}
+
+/* Animação da logo */
+
+.logo {
+    animation: girar 2s ease-in-out infinite alternate;
+}
+
+@keyframes girar {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(180deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+.unidade:hover {
+    transform: translate(10px, 15px);
+    
 }
